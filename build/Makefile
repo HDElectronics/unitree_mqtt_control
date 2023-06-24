@@ -114,17 +114,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named unitreeMqttControl
+# Target rules for targets named unitree_mqtt
 
 # Build rule for target.
-unitreeMqttControl: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 unitreeMqttControl
-.PHONY : unitreeMqttControl
+unitree_mqtt: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 unitree_mqtt
+.PHONY : unitree_mqtt
 
 # fast build rule for target.
-unitreeMqttControl/fast:
-	$(MAKE) -f CMakeFiles/unitreeMqttControl.dir/build.make CMakeFiles/unitreeMqttControl.dir/build
-.PHONY : unitreeMqttControl/fast
+unitree_mqtt/fast:
+	$(MAKE) -f CMakeFiles/unitree_mqtt.dir/build.make CMakeFiles/unitree_mqtt.dir/build
+.PHONY : unitree_mqtt/fast
 
 src/main.o: src/main.cpp.o
 
@@ -132,7 +132,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/unitreeMqttControl.dir/build.make CMakeFiles/unitreeMqttControl.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/unitree_mqtt.dir/build.make CMakeFiles/unitree_mqtt.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -141,7 +141,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/unitreeMqttControl.dir/build.make CMakeFiles/unitreeMqttControl.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/unitree_mqtt.dir/build.make CMakeFiles/unitree_mqtt.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -150,7 +150,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/unitreeMqttControl.dir/build.make CMakeFiles/unitreeMqttControl.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/unitree_mqtt.dir/build.make CMakeFiles/unitree_mqtt.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... unitreeMqttControl"
+	@echo "... unitree_mqtt"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

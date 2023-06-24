@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "unitreeMqttControl"
+			"path" : "output/unitree_mqtt"
 		}
 	],
 	"backtrace" : 1,
@@ -26,7 +26,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 30,
+				"line" : 33,
 				"parent" : 0
 			},
 			{
@@ -69,7 +69,7 @@
 			]
 		}
 	],
-	"id" : "unitreeMqttControl::@6890427a1f51a3e7e1df",
+	"id" : "unitree_mqtt::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -118,8 +118,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "unitreeMqttControl",
-	"nameOnDisk" : "unitreeMqttControl",
+	"name" : "unitree_mqtt",
+	"nameOnDisk" : "unitree_mqtt",
 	"paths" : 
 	{
 		"build" : ".",

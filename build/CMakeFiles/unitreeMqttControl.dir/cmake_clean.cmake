@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/unitreeMqttControl.dir/src/main.cpp.o"
-  "unitreeMqttControl"
-  "unitreeMqttControl.pdb"
+  "output/unitreeMqttControl"
+  "output/unitreeMqttControl.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

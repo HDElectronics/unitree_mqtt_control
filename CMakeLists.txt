@@ -21,13 +21,16 @@ set(UNITREE_LEGGED_SDK_PATH "/home/ibrahim/unitree_legged_sdk")
 include_directories(${UNITREE_LEGGED_SDK_PATH}/include)
 link_directories(${UNITREE_LEGGED_SDK_PATH}/lib/cpp/amd64)
 
+# Set the output directory path
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "output")
+
 # Add your source code files
 set(SOURCES
     src/main.cpp
 )
 
 # Add an executable target
-add_executable(unitreeMqttControl ${SOURCES})
+add_executable(unitree_mqtt ${SOURCES})
 
 # Link with the Unitree Legged SDK library
-target_link_libraries(unitreeMqttControl ${EXTRA_LIBS})
+target_link_libraries(unitree_mqtt ${EXTRA_LIBS})

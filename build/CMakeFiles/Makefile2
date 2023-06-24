@@ -56,7 +56,7 @@ CMAKE_BINARY_DIR = /home/ibrahim/unitree_mqtt_control/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/unitreeMqttControl.dir/all
+all: CMakeFiles/unitree_mqtt.dir/all
 
 .PHONY : all
 
@@ -66,36 +66,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/unitreeMqttControl.dir/clean
+clean: CMakeFiles/unitree_mqtt.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/unitreeMqttControl.dir
+# Target rules for target CMakeFiles/unitree_mqtt.dir
 
 # All Build rule for target.
-CMakeFiles/unitreeMqttControl.dir/all:
-	$(MAKE) -f CMakeFiles/unitreeMqttControl.dir/build.make CMakeFiles/unitreeMqttControl.dir/depend
-	$(MAKE) -f CMakeFiles/unitreeMqttControl.dir/build.make CMakeFiles/unitreeMqttControl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ibrahim/unitree_mqtt_control/build/CMakeFiles --progress-num=1,2 "Built target unitreeMqttControl"
-.PHONY : CMakeFiles/unitreeMqttControl.dir/all
+CMakeFiles/unitree_mqtt.dir/all:
+	$(MAKE) -f CMakeFiles/unitree_mqtt.dir/build.make CMakeFiles/unitree_mqtt.dir/depend
+	$(MAKE) -f CMakeFiles/unitree_mqtt.dir/build.make CMakeFiles/unitree_mqtt.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ibrahim/unitree_mqtt_control/build/CMakeFiles --progress-num=1,2 "Built target unitree_mqtt"
+.PHONY : CMakeFiles/unitree_mqtt.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/unitreeMqttControl.dir/rule: cmake_check_build_system
+CMakeFiles/unitree_mqtt.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ibrahim/unitree_mqtt_control/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/unitreeMqttControl.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/unitree_mqtt.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ibrahim/unitree_mqtt_control/build/CMakeFiles 0
-.PHONY : CMakeFiles/unitreeMqttControl.dir/rule
+.PHONY : CMakeFiles/unitree_mqtt.dir/rule
 
 # Convenience name for target.
-unitreeMqttControl: CMakeFiles/unitreeMqttControl.dir/rule
+unitree_mqtt: CMakeFiles/unitree_mqtt.dir/rule
 
-.PHONY : unitreeMqttControl
+.PHONY : unitree_mqtt
 
 # clean rule for target.
-CMakeFiles/unitreeMqttControl.dir/clean:
-	$(MAKE) -f CMakeFiles/unitreeMqttControl.dir/build.make CMakeFiles/unitreeMqttControl.dir/clean
-.PHONY : CMakeFiles/unitreeMqttControl.dir/clean
+CMakeFiles/unitree_mqtt.dir/clean:
+	$(MAKE) -f CMakeFiles/unitree_mqtt.dir/build.make CMakeFiles/unitree_mqtt.dir/clean
+.PHONY : CMakeFiles/unitree_mqtt.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
