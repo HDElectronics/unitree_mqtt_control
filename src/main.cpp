@@ -1,19 +1,3 @@
-// async_subscribe.cpp
-//
-// This is a Paho MQTT C++ client, sample application.
-//
-// This application is an MQTT subscriber using the C++ asynchronous client
-// interface, employing callbacks to receive messages and status updates.
-//
-// The sample demonstrates:
-//  - Connecting to an MQTT server/broker.
-//  - Subscribing to a topic
-//  - Receiving messages through the callback API
-//  - Receiving network disconnect updates and attempting manual reconnects.
-//  - Using a "clean session" and manually re-subscribing to topics on
-//    reconnect.
-//
-
 /*******************************************************************************
  * Copyright (c) 2013-2020 Frank Pagliughi <fpagliughi@mindspring.com>
  *
@@ -30,9 +14,24 @@
  *    Frank Pagliughi - initial implementation and documentation
  *******************************************************************************/
 
-/**********************************************************************
- Copyright (c) 2020-2023, Unitree Robotics.Co.Ltd. All rights reserved.
-***********************************************************************/
+/*******************************************************************************
+  * Copyright (c) 2020-2023, Unitree Robotics.Co.Ltd. All rights reserved.
+ *******************************************************************************/
+
+
+// This is a Paho MQTT C++ client, sample application.
+//
+// This application is an MQTT subscriber using the C++ asynchronous client
+// interface, employing callbacks to receive messages and status updates.
+//
+// The sample demonstrates:
+//  - Connecting to an MQTT server/broker.
+//  - Subscribing to a topic
+//  - Receiving messages through the callback API
+//  - Receiving network disconnect updates and attempting manual reconnects.
+//  - Using a "clean session" and manually re-subscribing to topics on
+//    reconnect.
+//
 
 #include <unitree_legged_sdk/unitree_legged_sdk.h>
 #include <math.h>
@@ -395,5 +394,5 @@ int main(int argc, char* argv[])
 		return 1;
 	}
 
- 	return 0;
+  return 0;
 }

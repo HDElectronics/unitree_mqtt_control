@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/ibrahim/unitree_mqtt_control/build",
-  "command": "/usr/bin/g++   -I/home/ibrahim/unitree_legged_sdk/include   -Wall -Wextra -g   -std=gnu++14 -o CMakeFiles/unitree_mqtt.dir/src/main.cpp.o -c /home/ibrahim/unitree_mqtt_control/src/main.cpp",
+  "command": "/usr/bin/g++ -I/home/ibrahim/unitree_legged_sdk/include  -Wall -Wextra -g -std=gnu++14 -o CMakeFiles/unitree_mqtt.dir/src/main.cpp.o -c /home/ibrahim/unitree_mqtt_control/src/main.cpp",
   "file": "/home/ibrahim/unitree_mqtt_control/src/main.cpp"
 }
 ]

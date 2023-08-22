@@ -6,6 +6,7 @@
 			[
 				{
 					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.0"
@@ -38,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "unitree_mqtt::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-unitree_mqtt-Debug-96a6ae205a5ea077bbad.json",
+					"jsonFile" : "target-unitree_mqtt-Debug-9be7690eb90c4cd171bf.json",
 					"name" : "unitree_mqtt",
 					"projectIndex" : 0
 				}
@@ -54,6 +55,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 0
+		"minor" : 4
 	}
 }

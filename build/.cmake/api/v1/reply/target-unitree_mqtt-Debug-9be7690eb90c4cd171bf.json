@@ -12,6 +12,7 @@
 		[
 			"add_executable",
 			"link_directories",
+			"target_link_libraries",
 			"include_directories"
 		],
 		"files" : 
@@ -38,6 +39,12 @@
 			{
 				"command" : 2,
 				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
 				"line" : 21,
 				"parent" : 0
 			}
@@ -49,7 +56,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -Wall -Wextra -g  "
+					"fragment" : " -Wall -Wextra -g"
 				},
 				{
 					"fragment" : "-std=gnu++14"
@@ -58,11 +65,19 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 3,
+					"backtrace" : 4,
 					"path" : "/home/ibrahim/unitree_legged_sdk/include"
 				}
 			],
 			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
 			"sourceIndexes" : 
 			[
 				0
@@ -92,6 +107,7 @@
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 3,
 				"fragment" : "-pthread",
 				"role" : "libraries"
 			},
@@ -100,6 +116,7 @@
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 3,
 				"fragment" : "-lunitree_legged_sdk",
 				"role" : "libraries"
 			},
@@ -108,10 +125,12 @@
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 3,
 				"fragment" : "-lpaho-mqttpp3",
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 3,
 				"fragment" : "-lpaho-mqtt3as",
 				"role" : "libraries"
 			}
